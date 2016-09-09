@@ -23,3 +23,7 @@ let python_highlight_all=1
 let g:pymode_doc = 1
 
 let g:netrw_liststyle=3
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_scss_checkers = ['scss_lint']
+let g:syntastic_javascript_checkers = ['']
